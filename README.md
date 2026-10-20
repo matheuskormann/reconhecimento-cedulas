@@ -4,6 +4,14 @@ O MoneyVision BR é um classificador de cédulas brasileiras de **R$ 2**, **R$ 5
 e **R$ 10**. O projeto funciona localmente e permite reconhecer uma fotografia
 ou acompanhar a previsão em tempo real pela webcam.
 
+## Equipe
+
+- Lucas Andreas Baumer
+- Matheus Kormann Svidnicki
+- Murilo Mayer Van Nouhuys
+
+Repositório: [matheuskormann/reconhecimento-cedulas](https://github.com/matheuskormann/reconhecimento-cedulas)
+
 ## Visão geral
 
 O sistema representa cada imagem por histogramas de cor nos espaços **RGB** e
