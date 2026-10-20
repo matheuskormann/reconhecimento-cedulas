@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+
+# Ferramentas de desenvolvimento
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+
+# Arquivos temporários
+tmp/
+*.tmp
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Base local e divisões geradas
+dataset/original/**
+!dataset/original/cedula_2/
+!dataset/original/cedula_2/.gitkeep
+!dataset/original/cedula_5/
+!dataset/original/cedula_5/.gitkeep
+!dataset/original/cedula_10/
+!dataset/original/cedula_10/.gitkeep
+dataset/processado/
+
+# Modelo treinado binário
+output/modelo/
